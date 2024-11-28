@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import TopBar from "../components/Dashboard/TopBar";
 import Sidebar from "../components/Sidebar/Sidebar";
 
@@ -18,8 +17,10 @@ const Tools = () => {
         </div>
 
         <div className="p-8 space-y-4 flex flex-col gap-1">
-
-          <a href="https://code.visualstudio.com/download" target="_blank">
+          <a
+            href="https://code.visualstudio.com/download"
+            target="_blank"
+          >
             <div className="flex cursor-pointer justify-between w-full p-4 rounded bg-stone-100">
               <span className="text-base flex items-center font-bold">
                 Visual Studio Code
@@ -31,18 +32,21 @@ const Tools = () => {
               />
             </div>
           </a>
-          
-          <a href="https://code.visualstudio.com/download" target="_blank">
-          <div className="flex cursor-pointer justify-between w-full p-4 rounded bg-stone-100">
-            <span className="text-base flex items-center font-bold">
-              Prettier
-            </span>
-            <img
-              src="images/prettier.svg"
-              alt=""
-              className="w-10 h-10 bg-white rounded object-cover"
-            />
-          </div>
+
+          <a
+            href="https://code.visualstudio.com/download"
+            target="_blank"
+          >
+            <div className="flex cursor-pointer justify-between w-full p-4 rounded bg-stone-100">
+              <span className="text-base flex items-center font-bold">
+                Prettier
+              </span>
+              <img
+                src="images/prettier.svg"
+                alt=""
+                className="w-10 h-10 bg-white rounded object-cover"
+              />
+            </div>
           </a>
 
           <a href="https://nodejs.org/en">
@@ -70,7 +74,6 @@ const Tools = () => {
               />
             </div>
           </a>
-          
         </div>
       </div>
     </main>
