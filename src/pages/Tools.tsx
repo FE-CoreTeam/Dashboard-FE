@@ -16,50 +16,64 @@ const Tools = () => {
           </span>
         </div>
 
-        <div className="p-8 space-y-4">
-          <div className="flex cursor-pointer justify-between w-full p-4 rounded bg-stone-100">
-            <span className="text-base flex items-center font-bold">
-              Visual Studio Code
-            </span>
-            <img
-              src="images/vscode.svg"
-              alt=""
-              className="w-10 h-10 bg-white rounded object-cover"
-            />
-          </div>
+        <div className="p-8 space-y-4 flex flex-col gap-1">
+          <a
+            href="https://code.visualstudio.com/download"
+            target="_blank"
+          >
+            <div className="flex cursor-pointer justify-between w-full p-4 rounded bg-stone-100">
+              <span className="text-base flex items-center font-bold">
+                Visual Studio Code
+              </span>
+              <img
+                src="images/vscode.svg"
+                alt=""
+                className="w-10 h-10 bg-white rounded object-cover"
+              />
+            </div>
+          </a>
 
-          <div className="flex cursor-pointer justify-between w-full p-4 rounded bg-stone-100">
-            <span className="text-base flex items-center font-bold">
-              Prettier
-            </span>
-            <img
-              src="images/prettier.svg"
-              alt=""
-              className="w-10 h-10 bg-white rounded object-cover"
-            />
-          </div>
+          <a
+            href="https://code.visualstudio.com/download"
+            target="_blank"
+          >
+            <div className="flex cursor-pointer justify-between w-full p-4 rounded bg-stone-100">
+              <span className="text-base flex items-center font-bold">
+                Prettier
+              </span>
+              <img
+                src="images/prettier.svg"
+                alt=""
+                className="w-10 h-10 bg-white rounded object-cover"
+              />
+            </div>
+          </a>
 
-          <div className="flex cursor-pointer justify-between w-full p-4 rounded bg-stone-100">
-            <span className="text-base flex items-center font-bold">
-              Node Js
-            </span>
-            <img
-              src="images/nodejs.svg"
-              alt=""
-              className="w-10 h-10 bg-white rounded object-cover"
-            />
-          </div>
+          <a href="https://nodejs.org/en">
+            <div className="flex cursor-pointer justify-between w-full p-4 rounded bg-stone-100">
+              <span className="text-base flex items-center font-bold">
+                Node Js
+              </span>
+              <img
+                src="images/nodejs.svg"
+                alt=""
+                className="w-10 h-10 bg-white rounded object-cover"
+              />
+            </div>
+          </a>
 
-          <div className="flex cursor-pointer justify-between w-full p-4 rounded bg-stone-100">
-            <span className="text-base flex items-center font-bold">
-              Git Bash
-            </span>
-            <img
-              src="images/gitbash.svg"
-              alt=""
-              className="w-10 h-10 bg-white rounded object-cover"
-            />
-          </div>
+          <a href="https://git-scm.com/downloads">
+            <div className="flex cursor-pointer justify-between w-full p-4 rounded bg-stone-100">
+              <span className="text-base flex items-center font-bold">
+                Git Bash
+              </span>
+              <img
+                src="images/gitbash.svg"
+                alt=""
+                className="w-10 h-10 bg-white rounded object-cover"
+              />
+            </div>
+          </a>
         </div>
       </div>
     </main>
