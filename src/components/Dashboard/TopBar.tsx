@@ -1,6 +1,15 @@
 import { FiCalendar } from "react-icons/fi";
 
 const TopBar = () => {
+  // Get current date and format it in WIB timezone
+  const date = new Date().toLocaleString("en-ID", {
+    weekday: "long",   // Full weekday name
+    year: "numeric",   // Full year
+    month: "short",    // Short month name
+    day: "numeric",    // Day of the month
+    timeZone: "Asia/Jakarta", // WIB Timezone
+  });
+
   return (
     <div className="border-b px-4 mb-4 mt-2 pb-4 border-stone-200">
       <div className="flex item-center justify-between p-0.5">
@@ -9,7 +18,7 @@ const TopBar = () => {
             🚀 Good Morning, Rei!
           </span>
           <span className="text-xs block text-stone-500">
-            Saturday, Oct 5th 2024
+            {date}
           </span>
         </div>
 
