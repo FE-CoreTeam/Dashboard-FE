@@ -15,7 +15,7 @@ const TopBar = () => {
       <div className="flex item-center justify-between p-0.5">
         <div>
           <span className="text-sm font-bold block">
-            🚀 Good Morning, Rei!
+            🚀 Hello Dev!
           </span>
           <span className="text-xs block text-stone-500">
             {date}
@@ -24,7 +24,7 @@ const TopBar = () => {
 
         <button className="flex text-sm items-center gap-2 bg-stone-100 transition-colors hover:bg-violet-100 hover:text-violet-700 px-3 py-1.5 rounded">
           <FiCalendar />
-          <span>Prev 6 Months</span>
+          <span>Coming Soon</span>
         </button>
       </div>
     </div>

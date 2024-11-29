@@ -12,21 +12,29 @@ const Sidebar = () => {
   return (
     <>
       {/* Mobile Menu Toggle Button (Hamburger Icon) */}
-      <div className="sm:hidden p-4 bg-gray-200 flex justify-between sticky top-0">
-        <h1>Logo/Title</h1>
+      <div className="sm:hidden p-4 bg-gray-200 flex justify-between items-center sticky top-0">
+        <div className="logo w-12">
+          <img src="images/navbar.png" alt="developer" />
+        </div>
         <button
           onClick={toggleSidebar}
           className="flex flex-col items-center justify-center space-y-1 "
         >
           {/* Hamburger icon (3 bars) */}
           <div
-            className={`w-6 h-1 bg-gray-500 rounded-md transition-all duration-300 transform ${isOpen ? "rotate-45 translate-y-2" : ""}`}
+            className={`w-6 h-1 bg-gray-500 rounded-md transition-all duration-300 transform ${
+              isOpen ? "rotate-45 translate-y-2" : ""
+            }`}
           ></div>
           <div
-            className={`w-6 h-1 bg-gray-500 rounded-md transition-all duration-300 ${isOpen ? "opacity-0" : "opacity-100"}`}
+            className={`w-6 h-1 bg-gray-500 rounded-md transition-all duration-300 ${
+              isOpen ? "opacity-0" : "opacity-100"
+            }`}
           ></div>
           <div
-            className={`w-6 h-1 bg-gray-500 rounded-md transition-all duration-300 transform ${isOpen ? "-rotate-45 -translate-y-2" : ""}`}
+            className={`w-6 h-1 bg-gray-500 rounded-md transition-all duration-300 transform ${
+              isOpen ? "-rotate-45 -translate-y-2" : ""
+            }`}
           ></div>
         </button>
       </div>
