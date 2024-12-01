@@ -11,6 +11,7 @@ import Tools from "./pages/Tools.tsx";
 import Question from "./pages/Question.tsx";
 import Integrations from "./pages/Integrations.tsx";
 import Learning from "./pages/Learning.tsx";
+import ErrorPage from "./pages/ErrorPage.tsx"
 import PendahuluanHTML from "./pages/Studyjam-basic/basic_html/1_pendahuluan.tsx"
 import Struktur from "./pages/Studyjam-basic/basic_html/2_struktur_html.tsx"
 import Heading from "./pages/Studyjam-basic/basic_html/3_Heading_Paragraf.tsx"
@@ -114,6 +115,12 @@ const router = createBrowserRouter([
   {
     path: "/Selektor-CSS",
     element: <Selektor/>,
+  },
+
+   // Rute catch-all untuk error
+   {
+    path: "*",
+    element: <ErrorPage />,  // Menangani halaman yang tidak ditemukan
   },
 
 
