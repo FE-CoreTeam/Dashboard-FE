@@ -27,34 +27,34 @@ const Learning = () => {
               <Link to="/Hyperlink">4. Hyperlink</Link>
             </li>
             <li>
-              <a href="/Image">5. Image</a>
+              <Link to="/Image">5. Image</Link>
             </li>
             <li>
-              <a href="/Lists">6. List</a>
+              <Link to="/List">6. List</Link>
             </li>
             <li>
-              <a href="/Div-dan-Span">7. Div dan Span</a>
+              <Link to="/Div-dan-Span">7. Div dan Span</Link>
             </li>
             <li>
-              <a href="/Class-dan-id">8. Class dan id</a>
+              <Link to="/Class-dan-id">8. Class dan id</Link>
             </li>
             <li>
-              <a href="/Tabel">9. Tabel</a>
+              <Link to="/Tabel">9. Tabel</Link>
             </li>
             <li>
-              <a href="/Form">10. Form</a>
+              <Link to="/Form">10. Form</Link>
             </li>
           </ul>
           <h1 className="font-bold text-xl my-2">CSS Dasar</h1>
           <ul className="text-blue-600">
             <li>
-              <a href="/Pendahuluan-CSS">1. Pendahuluan CSS</a>
+              <Link to="/Pendahuluan-CSS">1. Pendahuluan CSS</Link>
             </li>
             <li>
-              <a href="/Penggunaan-CSS">2. Penggunaan CSS</a>
+              <Link to="/Penggunaan-CSS">2. Penggunaan CSS</Link>
             </li>
             <li>
-              <a href="/Selektor-CSS">3. Selektor CSS</a>
+              <Link to="/Selektor-CSS">3. Selektor CSS</Link>
             </li>
             <li>
               <a href="/Properti-CSS">4. Properti Dasar CSS</a>
