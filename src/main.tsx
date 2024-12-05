@@ -25,6 +25,10 @@ import Form from "./pages/Studyjam-basic/basic_html/10_form.tsx"
 import PendahuluanCSS from "./pages/Studyjam-basic/basic_css/1_pendahuluan.tsx"
 import Penggunaan from "./pages/Studyjam-basic/basic_css/2_penggunaan.tsx"
 import Selektor from "./pages/Studyjam-basic/basic_css/3_selektor.tsx"
+import Properti from "./pages/Studyjam-basic/basic_css/4_properti.tsx"
+import Display from "./pages/Studyjam-basic/basic_css/5_display_float.tsx"
+import Responsive from "./pages/Studyjam-basic/basic_css/6_responsive.tsx"
+import FlexGrid from "./pages/Studyjam-basic/basic_css/7_Flex_Grid.tsx"
 
 const router = createBrowserRouter([
   {
@@ -116,6 +120,28 @@ const router = createBrowserRouter([
     path: "/Selektor-CSS",
     element: <Selektor/>,
   },
+
+  {
+    path: "/Properti-CSS",
+    element: <Properti/>,
+  },
+
+  {
+    path: "/Display-CSS",
+    element: <Display/>,
+  },
+
+  {
+    path: "/Responsive-CSS",
+    element: <Responsive/>,
+  },
+
+  {
+    path: "/Flexbox-dan-Grid",
+    element: <FlexGrid/>,
+  },
+ 
+
 
    // Rute catch-all untuk error
    {
