@@ -15,75 +15,58 @@ const Learning = () => {
           <h1 className="font-bold text-xl my-2">HTML Dasar</h1>
           <ul className="text-blue-600">
             <li>
-            <Link to="/Pendahuluan-HTML">1. Pendahuluan HTML</Link>
+            <a href="/Pendahuluan-HTML">1. Pendahuluan HTML</a>
             </li>
             <li>
-              <Link to="/Struktur-Dasar-HTML">2. Struktur Dasar Html</Link>
+              <a href="/Struktur-Dasar-HTML">2. Struktur Dasar Html</a>
             </li>
             <li>
-              <Link to="/Heading-dan-Paragraph">3. Heading dan Paragraph</Link>
+              <a href="/Heading-dan-Paragraph">3. Heading dan Paragraph</a>
             </li>
             <li>
-              <Link to="/Hyperlink">4. Hyperlink</Link>
+              <a href="/Hyperlink">4. Hyperlink</a>
             </li>
             <li>
-              <Link to="/Image">5. Image</Link>
+              <a href="/Image">5. Image</a>
             </li>
             <li>
-              <Link to="/List">6. List</Link>
+              <a href="/List">6. List</a>
             </li>
             <li>
-              <Link to="/Div-dan-Span">7. Div dan Span</Link>
+              <a href="/Div-dan-Span">7. Div dan Span</a>
             </li>
             <li>
-              <Link to="/Class-dan-id">8. Class dan id</Link>
+              <a href="/Class-dan-id">8. Class dan id</a>
             </li>
             <li>
-              <Link to="/Tabel">9. Tabel</Link>
+              <a href="/Tabel">9. Tabel</a>
             </li>
             <li>
-              <Link to="/Form">10. Form</Link>
+              <a href="/Form">10. Form</a>
             </li>
           </ul>
           <h1 className="font-bold text-xl my-2">CSS Dasar</h1>
           <ul className="text-blue-600">
             <li>
-              <Link to="/Pendahuluan-CSS">1. Pendahuluan CSS</Link>
+              <a href="/Pendahuluan-CSS">1. Pendahuluan CSS</a>
             </li>
             <li>
-              <Link to="/Penggunaan-CSS">2. Penggunaan CSS</Link>
+              <a href="/Penggunaan-CSS">2. Penggunaan CSS</a>
             </li>
             <li>
-              <Link to="/Selektor-CSS">3. Selektor CSS</Link>
+              <a href="/Selektor-CSS">3. Selektor CSS</a>
             </li>
             <li>
               <a href="/Properti-CSS">4. Properti Dasar CSS</a>
+            </li>           
+            <li>
+              <a href="/Display-CSS">5. Display dan Float</a>
             </li>
             <li>
-              <a href="/Box-Model">5. Box Model CSS</a>
+              <a href="/Responsive-CSS">6. Responsive Pada CSS</a>
             </li>
             <li>
-              <a href="/Background-CSS">6. Background pada CSS</a>
-            </li>
-            <li>
-              <a href="/Pengaturan-Posisi-CSS">7. Pengaturan Posisi</a>
-            </li>
-            <li>
-              <a href="/Display-CSS">8. Display dan Float</a>
-            </li>
-            <li>
-              <a href="/Responsive">9. Responsive Pada CSS</a>
-            </li>
-            <li>
-              <a href="/Flexbox-Grid">10. CSS Flexbox dan Grid</a>
-            </li>
-            <li>
-              <a href="/Transformasi-Transisi-CSS">
-                11. Transformasi dan Transisi CSS
-              </a>
-            </li>
-            <li>
-              <a href="/Vendor-Prefixes">12. CSS Vendor Prefixes</a>
+              <a href="/Flexbox-dan-Grid">7. CSS Flexbox dan Grid</a>
             </li>
           </ul>
         </div>
